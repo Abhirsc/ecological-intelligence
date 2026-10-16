@@ -1,0 +1,212 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-10-17T10:00:00Z"
+ },
+ "title": "Ecological Intelligence",
+ "launch": {
+  "view": "canvas",
+  "page": "deck"
+ },
+ "pages": [
+  {
+   "id": "deck",
+   "name": "Ecological Intelligence deck"
+  }
+ ],
+ "boards": {
+  "Title.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "title": "01 \u00b7 Title",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Roadmap.dc.html": {
+   "x": 1360,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "title": "02 \u00b7 Your 16-minute path",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "LivingWealth.dc.html": {
+   "x": 2720,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "title": "03 \u00b7 India's living wealth",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "HabitatTypes.dc.html": {
+   "x": 4080,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "title": "04 \u00b7 Six habitats",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "WebOfLife.dc.html": {
+   "x": 0,
+   "y": 840,
+   "w": 1280,
+   "h": 720,
+   "title": "05 \u00b7 Web of life",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Challenges.dc.html": {
+   "x": 1360,
+   "y": 840,
+   "w": 1280,
+   "h": 720,
+   "title": "06 \u00b7 Eight pressures",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "EcoLoop.dc.html": {
+   "x": 2720,
+   "y": 840,
+   "w": 1280,
+   "h": 720,
+   "title": "07 \u00b7 The intelligence loop",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "TechWorkflow.dc.html": {
+   "x": 4080,
+   "y": 840,
+   "w": 1280,
+   "h": 720,
+   "title": "08 \u00b7 Tech workflow",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Tigers.dc.html": {
+   "x": 0,
+   "y": 1680,
+   "w": 1280,
+   "h": 720,
+   "title": "09 \u00b7 Example: tigers",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Birds.dc.html": {
+   "x": 1360,
+   "y": 1680,
+   "w": 1280,
+   "h": 720,
+   "title": "10 \u00b7 Example: birds",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Bustard.dc.html": {
+   "x": 2720,
+   "y": 1680,
+   "w": 1280,
+   "h": 720,
+   "title": "11 \u00b7 Example: Great Indian Bustard",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Satellites.dc.html": {
+   "x": 4080,
+   "y": 1680,
+   "w": 1280,
+   "h": 720,
+   "title": "12 \u00b7 Example: forests from space",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Laws.dc.html": {
+   "x": 0,
+   "y": 2520,
+   "w": 1280,
+   "h": 720,
+   "title": "13 \u00b7 Laws that protect nature",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "ImproveLaws.dc.html": {
+   "x": 1360,
+   "y": 2520,
+   "w": 1280,
+   "h": 720,
+   "title": "14 \u00b7 Where laws can improve",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "YouthAction.dc.html": {
+   "x": 2720,
+   "y": 2520,
+   "w": 1280,
+   "h": 720,
+   "title": "15 \u00b7 Your 7-day starter path",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Recap.dc.html": {
+   "x": 4080,
+   "y": 2520,
+   "w": 1280,
+   "h": 720,
+   "title": "16 \u00b7 Recap & quick check",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "References.dc.html": {
+   "x": 0,
+   "y": 3360,
+   "w": 1280,
+   "h": 720,
+   "title": "17 \u00b7 References (APA 7)",
+   "page": "deck",
+   "is_interactive": true
+  },
+  "Habitat.dc.html": {
+   "x": 1360,
+   "y": 3360,
+   "w": 1280,
+   "h": 720,
+   "title": "Shared scene \u00b7 7 Indian habitats",
+   "page": "deck"
+  }
+ },
+ "order": [
+  "Title.dc.html",
+  "Roadmap.dc.html",
+  "LivingWealth.dc.html",
+  "HabitatTypes.dc.html",
+  "WebOfLife.dc.html",
+  "Challenges.dc.html",
+  "EcoLoop.dc.html",
+  "TechWorkflow.dc.html",
+  "Tigers.dc.html",
+  "Birds.dc.html",
+  "Bustard.dc.html",
+  "Satellites.dc.html",
+  "Laws.dc.html",
+  "ImproveLaws.dc.html",
+  "YouthAction.dc.html",
+  "Recap.dc.html",
+  "References.dc.html",
+  "Habitat.dc.html"
+ ],
+ "notes": {
+  "deckTitle": {
+   "x": 0,
+   "y": -280,
+   "text": "Ecological Intelligence \u00b7 17 slides \u00b7 about 16 minutes",
+   "kind": "title1",
+   "maxW": 5360,
+   "page": "deck"
+  }
+ },
+ "designSystems": []
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example: forests from space</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./eco.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&amp;family=Noto+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}a{color:#E9A93A}a:hover{color:#f5c56e}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #10241C; color: #EEF2E6; font-family: 'Noto Sans', sans-serif">
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 140px"><dc-import name="Habitat" habitat="forest" mode="band" hint-size="1280px,140px"></dc-import></div>
+<div style="position: absolute; left: 0; right: 0; top: 0; bottom: 140px; box-sizing: border-box; padding: 32px 72px 16px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<div style="font-size: 14px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #3FB6B0">Example 4 of 4 · From space</div>
+<nav style="display: flex; align-items: center; gap: 4px; font-size: 14px; color: #A9B8A6"><a href="Bustard.dc.html" aria-label="Previous slide" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; text-decoration: none; font-size: 20px">←</a><span>12 / 17</span><a href="Laws.dc.html" aria-label="Next slide" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; text-decoration: none; font-size: 20px">→</a></nav>
+</div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; line-height: 1.05; font-weight: 700; letter-spacing: -.015em">Green from space doesn't always mean healthy</h2>
+<div style="display: flex; gap: 32px; align-items: flex-start">
+<div style="flex: 1; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: baseline; gap: 14px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 56px; font-weight: 700; line-height: 1; color: #E9A93A">24.62%</span><span style="font-size: 15px; line-height: 1.4; color: #D5DDD0">of India was under forest and tree cover in 2021</span></div>
+<div style="display: grid; grid-template-columns: 84px minmax(0, 1fr); row-gap: 8px; column-gap: 12px; font-size: 15px; line-height: 1.45">
+<span style="font-weight: 600; color: #E9A93A">Data</span><span style="color: #D5DDD0">Landsat maps tree cover change at 30 m detail. The Forest Survey of India reports every two years.</span>
+<span style="font-weight: 600; color: #E9A93A">Insight</span><span style="color: #D5DDD0">Tree cover hides damage below the canopy: invasive Lantana has spread through more than 40% of the forests.</span>
+<span style="font-weight: 600; color: #E9A93A">Action</span><span style="color: #D5DDD0">Clear invasives and restore native plants where models predict the highest risk.</span>
+</div>
+<div style="font-size: 13px; color: #8FA08C">Sources: Hansen et al. (2013); Forest Survey of India (2021); Mungi et al. (2020)</div>
+</div>
+<div style="width: 470px; flex: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<div role="img" aria-label="Image placeholder: satellite image of a forest, earlier year" style="height: 230px; box-sizing: border-box; border: 2px dashed #6f9a83; border-radius: 14px; background: #142c21; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 12px; text-align: center"><svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#A9B8A6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><circle cx="9" cy="10" r="2"></circle><path d="M21 16l-5-5-8 8"></path></svg><span style="font-size: 14px; font-weight: 600; color: #D5DDD0">[SATELLITE: 2015]</span><span style="font-size: 12.5px; color: #A9B8A6">Same forest patch, from Global Forest Watch or Bhuvan</span></div>
+<div role="img" aria-label="Image placeholder: satellite image of the same forest, recent year" style="height: 230px; box-sizing: border-box; border: 2px dashed #6f9a83; border-radius: 14px; background: #142c21; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 12px; text-align: center"><svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#A9B8A6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><circle cx="9" cy="10" r="2"></circle><path d="M21 16l-5-5-8 8"></path></svg><span style="font-size: 14px; font-weight: 600; color: #D5DDD0">[SATELLITE: 2025]</span><span style="font-size: 12.5px; color: #A9B8A6">Mark the areas of loss or Lantana spread</span></div>
+</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

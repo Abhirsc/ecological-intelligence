@@ -1,0 +1,89 @@
+/* Ambient loops for the shared Indian habitat scenes (Habitat.dc.html) */
+.sky{animation:eco-sky 40s linear -14s infinite}
+.sunarm{transform-box:view-box;transform-origin:800px 860px;animation:eco-sun 40s linear -14s infinite}
+.nightonly{animation:eco-night 40s linear -14s infinite}
+.veil{animation:eco-veil 40s linear -14s infinite}
+.cloud{animation:eco-drift var(--t,80s) linear var(--d,0s) infinite}
+.fly{opacity:0;animation:eco-fly var(--t,24s) linear var(--d,0s) infinite both}
+.flyr{opacity:0;animation:eco-flyr var(--t,24s) linear var(--d,0s) infinite both}
+.bob{animation:eco-bob var(--b,3s) ease-in-out infinite alternate}
+.flap{transform-box:fill-box;transform-origin:50% 50%;animation:eco-flap var(--f,.45s) ease-in-out infinite alternate}
+.egret{fill:none;stroke:#F4F1EA;stroke-width:4;stroke-linecap:round}
+.sway{transform-box:fill-box;transform-origin:50% 100%;animation:eco-sway var(--s,5s) ease-in-out var(--d,0s) infinite alternate}
+.walk{animation:eco-walk var(--t,150s) linear var(--d,-40s) infinite}
+.walkr{animation:eco-walkr var(--t,150s) linear var(--d,-40s) infinite}
+.leg{transform-box:fill-box;transform-origin:50% 0;animation:eco-leg var(--l,1.6s) ease-in-out infinite alternate}
+.leg.b{animation-delay:calc(var(--l,1.6s) * -1)}
+.fan{transform-box:fill-box;transform-origin:50% 100%;animation:eco-fan 14s ease-in-out infinite}
+.ripple{transform-box:fill-box;transform-origin:50% 50%;animation:eco-ripple 4s ease-out var(--d,0s) infinite}
+.shimmer{animation:eco-shim 3s ease-in-out var(--d,0s) infinite alternate}
+.bfly{animation:var(--n,eco-b1) var(--t,18s) ease-in-out var(--d,0s) infinite}
+.wing{transform-box:fill-box;transform-origin:var(--o,100%) 50%;animation:eco-wing .26s ease-in-out infinite alternate}
+.bee{animation:eco-bee var(--t,2.4s) ease-in-out var(--d,0s) infinite}
+.buzz{transform-box:fill-box;transform-origin:50% 100%;animation:eco-buzz .07s linear infinite alternate}
+.dfly{animation:eco-dfly 10s ease-in-out infinite}
+.ff{animation:eco-blink var(--t,3s) ease-in-out var(--d,0s) infinite}
+.blinkeye{transform-box:fill-box;transform-origin:50% 50%;animation:eco-eye var(--t,5s) linear var(--d,0s) infinite}
+.streamer{transform-box:fill-box;transform-origin:0% 50%;animation:eco-stream .5s ease-in-out infinite alternate}
+.inch{transform-box:fill-box;transform-origin:0% 100%;animation:eco-inch 1.2s ease-in-out infinite alternate}
+.crawl{animation:eco-crawl var(--t,30s) linear var(--d,0s) infinite}
+.march{animation:eco-march var(--t,6s) linear var(--d,0s) infinite}
+.flick{transform-box:fill-box;transform-origin:0% 100%;animation:eco-flick 2.2s ease-in-out infinite alternate}
+.headbob{transform-box:fill-box;transform-origin:50% 100%;animation:eco-headbob var(--b,2.4s) ease-in-out var(--d,0s) infinite alternate}
+.headturn{transform-box:fill-box;transform-origin:50% 100%;animation:eco-turn 6s ease-in-out var(--d,0s) infinite}
+.pace{animation:eco-pace var(--t,14s) ease-in-out var(--d,0s) infinite alternate}
+.dip{transform-box:fill-box;transform-origin:0% 100%;animation:eco-dip 7s ease-in-out var(--d,0s) infinite}
+.dolphin{opacity:0;transform-box:fill-box;transform-origin:50% 50%;animation:eco-dolphin var(--t,9s) ease-in-out var(--d,0s) infinite}
+.bat{animation:var(--n,eco-bat1) var(--t,9s) ease-in-out var(--d,0s) infinite}
+.batwing{transform-box:fill-box;transform-origin:50% 50%;animation:eco-flap .18s ease-in-out infinite alternate}
+.snow{animation:eco-snow var(--t,9s) linear var(--d,0s) infinite}
+.petal{opacity:0;transform-box:fill-box;transform-origin:50% 50%;animation:eco-petal var(--t,8s) ease-in var(--d,0s) infinite}
+.scuttle{animation:eco-scuttle var(--t,5s) ease-in-out var(--d,0s) infinite alternate}
+.flowline{stroke-dasharray:6 8;animation:eco-flow 1.6s linear infinite}
+
+@keyframes eco-sky{0%,100%{fill:#0c1830}18%{fill:#3a3f6b}24%{fill:#f2a65a}32%,62%{fill:#8cc7e6}72%{fill:#f08a4b}80%{fill:#4a3560}86%{fill:#0c1830}}
+@keyframes eco-sun{from{transform:rotate(-166deg)}to{transform:rotate(194deg)}}
+@keyframes eco-night{0%,16%,84%,100%{opacity:1}26%,74%{opacity:0}}
+@keyframes eco-veil{0%,14%,86%,100%{opacity:.5}26%,74%{opacity:0}}
+@keyframes eco-drift{from{transform:translateX(-400px)}to{transform:translateX(2000px)}}
+@keyframes eco-fly{0%{opacity:1;transform:translate(-200px,var(--y))}70%{opacity:1;transform:translate(1800px,calc(var(--y) - 50px))}70.1%,100%{opacity:0;transform:translate(1800px,calc(var(--y) - 50px))}}
+@keyframes eco-flyr{0%{opacity:1;transform:translate(1800px,var(--y)) scaleX(-1)}70%{opacity:1;transform:translate(-200px,calc(var(--y) - 40px)) scaleX(-1)}70.1%,100%{opacity:0;transform:translate(-200px,calc(var(--y) - 40px)) scaleX(-1)}}
+@keyframes eco-bob{from{transform:translateY(0)}to{transform:translateY(var(--bo,10px))}}
+@keyframes eco-flap{from{transform:scaleY(1)}to{transform:scaleY(-.5)}}
+@keyframes eco-sway{from{transform:rotate(calc(var(--a,2deg) * -1))}to{transform:rotate(var(--a,2deg))}}
+@keyframes eco-walk{from{transform:translateX(-320px)}to{transform:translateX(1920px)}}
+@keyframes eco-walkr{from{transform:translateX(1920px) scaleX(-1)}to{transform:translateX(-320px) scaleX(-1)}}
+@keyframes eco-leg{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}
+@keyframes eco-fan{0%,18%{transform:scale(.2,.12)}32%,68%{transform:scale(1)}82%,100%{transform:scale(.2,.12)}}
+@keyframes eco-ripple{0%{transform:scale(.3);opacity:.8}100%{transform:scale(1.7);opacity:0}}
+@keyframes eco-shim{from{opacity:.25}to{opacity:.9}}
+@keyframes eco-b1{0%,100%{transform:translate(300px,780px)}25%{transform:translate(520px,715px)}50%{transform:translate(760px,790px)}75%{transform:translate(520px,850px)}}
+@keyframes eco-b2{0%,100%{transform:translate(1000px,770px)}30%{transform:translate(1150px,705px)}60%{transform:translate(1320px,790px)}80%{transform:translate(1120px,840px)}}
+@keyframes eco-b3{0%,100%{transform:translate(120px,820px)}35%{transform:translate(260px,730px)}70%{transform:translate(60px,760px)}}
+@keyframes eco-wing{from{transform:scaleX(1)}to{transform:scaleX(.18)}}
+@keyframes eco-bee{0%,100%{transform:translate(0,0)}25%{transform:translate(14px,-8px)}50%{transform:translate(-6px,-14px)}75%{transform:translate(-14px,4px)}}
+@keyframes eco-buzz{from{transform:scaleY(1)}to{transform:scaleY(.5)}}
+@keyframes eco-dfly{0%,18%{transform:translate(520px,750px)}24%,42%{transform:translate(650px,730px)}48%,66%{transform:translate(740px,765px)}72%,92%{transform:translate(600px,775px)}100%{transform:translate(520px,750px)}}
+@keyframes eco-blink{0%,100%{opacity:.08}50%{opacity:1}}
+@keyframes eco-eye{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+@keyframes eco-stream{from{transform:skewY(-6deg)}to{transform:skewY(6deg)}}
+@keyframes eco-inch{from{transform:scaleX(1)}to{transform:scaleX(.78)}}
+@keyframes eco-crawl{from{transform:translateX(0)}to{transform:translateX(160px)}}
+@keyframes eco-march{from{transform:translateX(0)}to{transform:translateX(180px)}}
+@keyframes eco-flick{from{transform:rotate(-14deg)}to{transform:rotate(18deg)}}
+@keyframes eco-headbob{from{transform:translateY(0) rotate(0)}to{transform:translateY(4px) rotate(6deg)}}
+@keyframes eco-turn{0%,40%,100%{transform:rotate(0)}50%,85%{transform:rotate(-18deg)}}
+@keyframes eco-pace{from{transform:translateX(0)}to{transform:translateX(140px)}}
+@keyframes eco-dip{0%,55%,100%{transform:rotate(0)}65%,85%{transform:rotate(80deg)}}
+@keyframes eco-dolphin{0%{opacity:0;transform:translate(0,40px) rotate(-40deg)}8%{opacity:1}25%{transform:translate(70px,-50px) rotate(0deg)}42%{opacity:1;transform:translate(140px,40px) rotate(40deg)}46%,100%{opacity:0;transform:translate(140px,60px) rotate(40deg)}}
+@keyframes eco-bat1{0%,100%{transform:translate(300px,300px)}20%{transform:translate(520px,220px)}40%{transform:translate(700px,330px)}60%{transform:translate(560px,420px)}80%{transform:translate(380px,360px)}}
+@keyframes eco-bat2{0%,100%{transform:translate(1000px,260px)}25%{transform:translate(1180px,340px)}50%{transform:translate(1320px,230px)}75%{transform:translate(1120px,190px)}}
+@keyframes eco-bat3{0%,100%{transform:translate(800px,180px)}30%{transform:translate(660px,260px)}60%{transform:translate(900px,300px)}}
+@keyframes eco-snow{from{transform:translate(0,-60px)}to{transform:translate(-40px,960px)}}
+@keyframes eco-petal{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:1}90%{opacity:1}100%{opacity:0;transform:translate(-60px,200px) rotate(260deg)}}
+@keyframes eco-scuttle{from{transform:translateX(0)}to{transform:translateX(50px)}}
+@keyframes eco-flow{to{stroke-dashoffset:-28}}
+
+@media (prefers-reduced-motion: reduce){
+  .eco *, .flowline{animation-play-state:paused !important}
+}

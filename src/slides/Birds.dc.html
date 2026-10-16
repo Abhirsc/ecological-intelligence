@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example: birdwatchers as scientists</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./eco.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&amp;family=Noto+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}a{color:#E9A93A}a:hover{color:#f5c56e}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #10241C; color: #EEF2E6; font-family: 'Noto Sans', sans-serif">
+<div style="position: absolute; inset: 0"><dc-import name="Habitat" habitat="wetland" mode="full" hint-size="1280px,720px"></dc-import></div>
+<nav style="position: absolute; right: 32px; top: 24px; display: flex; align-items: center; gap: 4px; font-size: 14px; color: #EEF2E6; background: rgba(16,36,28,0.8); border-radius: 999px; padding: 0 8px"><a href="Tigers.dc.html" aria-label="Previous slide" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; text-decoration: none; font-size: 20px">←</a><span>10 / 17</span><a href="Bustard.dc.html" aria-label="Next slide" style="display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; text-decoration: none; font-size: 20px">→</a></nav>
+<div style="position: absolute; left: 48px; top: 40px; width: 600px; box-sizing: border-box; padding: 28px 32px; border-radius: 18px; background: rgba(16,36,28,0.9); display: flex; flex-direction: column; gap: 14px">
+<div style="font-size: 14px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #3FB6B0">Example 2 of 4 · Wetlands &amp; skies</div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 38px; line-height: 1.05; font-weight: 700; letter-spacing: -.015em">30,000 birdwatchers became scientists</h2>
+<div style="display: flex; align-items: baseline; gap: 14px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 60px; font-weight: 700; line-height: 1; color: #E9A93A">60%</span><span style="font-size: 16px; line-height: 1.4; color: #D5DDD0">of the 338 species with long-term data have declined</span></div>
+<div style="display: grid; grid-template-columns: 84px minmax(0, 1fr); row-gap: 8px; column-gap: 12px; font-size: 15px; line-height: 1.45">
+<span style="font-weight: 600; color: #E9A93A">Data</span><span style="color: #D5DDD0">More than 30 million eBird sightings from citizens</span>
+<span style="font-weight: 600; color: #E9A93A">Insight</span><span style="color: #D5DDD0">Raptors, waterbirds and specialists are falling fastest. The Indian Peafowl is increasing.</span>
+<span style="font-weight: 600; color: #E9A93A">Action</span><span style="color: #D5DDD0">178 species flagged as high conservation priority</span>
+</div>
+<div style="font-size: 13px; color: #8FA08C">Sources: SoIB (2023); Sullivan et al. (2009)</div>
+</div>
+<div role="img" aria-label="Photo placeholder: flamingos at a wetland" style="position: absolute; right: 40px; bottom: 32px; width: 340px; height: 180px; box-sizing: border-box; border: 2px dashed #6f9a83; border-radius: 14px; background: rgba(16,36,28,0.88); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 14px; text-align: center">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#A9B8A6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><circle cx="9" cy="10" r="2"></circle><path d="M21 16l-5-5-8 8"></path></svg>
+<span style="font-size: 14px; font-weight: 600; color: #D5DDD0">[PHOTO: flamingos at Thane Creek or Chilika]</span>
+<span style="font-size: 12.5px; color: #A9B8A6">Or a screenshot of an eBird checklist</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

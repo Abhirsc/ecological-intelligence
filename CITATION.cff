@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use or adapt this deck, please cite it as below."
+title: "Ecological Intelligence: data-driven nature insights for India"
+type: software
+authors:
+  - family-names: "Singh"
+    given-names: "Abhimanyu Raj"
+    orcid: "https://orcid.org/0000-0002-2279-7060"
+license: CC-BY-4.0
+repository-code: "https://github.com/Abhirsc/ecological-intelligence"
+url: "https://abhirsc.github.io/ecological-intelligence/"
+abstract: >-
+  A 16-minute, 17-slide animated presentation for students and citizens on how
+  data helps India understand and protect its biodiversity faster.
+keywords:
+  - biodiversity
+  - India
+  - conservation
+  - citizen science
+  - remote sensing
+  - environmental law
+version: 1.0.0
+date-released: "2026-10-17"
